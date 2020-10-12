@@ -1,8 +1,30 @@
 body {
-	background-color: #FF7F2E;
-	font-family: 'Concert One', cursive;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin: 0; overflow: hidden;
 	padding: 0;
+}
+
+.bg-one {
+	background-color: #FF7F2E !important;
+}
+
+.bg-two {
+	background-color: #87CEEB;
+}
+
+.back {
+	background: url('back.svg');
+	filter: invert(46%) sepia(82%) saturate(2689%) hue-rotate(163deg) brightness(97%) contrast(101%);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: 0;
+	background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.back-one {
+	filter: invert(56%) sepia(87%) saturate(1368%) hue-rotate(3deg) brightness(108%) contrast(103%);
 }
 
 .container {
@@ -49,16 +71,6 @@ body {
 	color: #13242C;
 	font-size: 25px;
 }
-
-.n-div {
-	color: #13242C;
-	font-size: 80px;
-	font-weight: bold;
-	position: absolute;
-	bottom: 10px;
-    right: 20px;
-}
-
 
 .caveman:nth-child(2) .head .blaze {
 	transform: rotateY(180deg);
@@ -330,4 +342,13 @@ body {
 	50%   { width: 350px; left: 80px; }
 	75%   { width: 450px; left: 0px; }
 	100%  { width: 350px; left: 80px; }
+}
+
+.n-div {
+	color: #13242C;
+	font-size: 80px;
+	font-weight: bold;
+	position: absolute;
+	bottom: 10px;
+    right: 20px;
 }
