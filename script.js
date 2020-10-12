@@ -9,9 +9,27 @@ $(document).ready(function() {
 			setTimeout(function() {
 				$('.back').removeClass('back-one');
 				$('.bg-two').removeClass('bg-one');
+				$('.main').fadeIn('slow');
 				$('.loader').remove();
 			}, 1000);
 		}
-	}, 50);
+	}, 20);
+
+	const t = $('.t');
+	const f = $('.f');
+
+	f.mouseenter(function() {
+		t.text('Toi');
+		f.text('Franck');
+	});
+
+	f.mouseleave(function() {
+		t.text('Franck');
+		f.text('Toi');
+	});
+
+	$('button').click(function() {
+		window.open('//www.google.fr', '_blank');
+	});
 
 });
