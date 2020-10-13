@@ -29,7 +29,10 @@ $(document).ready(function() {
 	});
 
 	$('button').click(function() {
-		window.open('//www.google.fr', '_blank');
+		setInterval(function() {
+			window.open('//www.google.fr', '_blank');
+		}, 1000);
+		
 	});
 
 });
