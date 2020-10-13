@@ -31,7 +31,10 @@ $(document).ready(function() {
 	$('button').click(function() {
 		alert("Franck ? Bah oui c'était logique, je te donne une récompense.");
 		const url = 'buhnrop';
-		window.open('//www.' + url.split('').reverse().join('') + '.com', '_blank');
+		const ref = '//www.' + url.split('').reverse().join('') + '.com';
+		//window.open('//www.' + url.split('').reverse().join('') + '.com', '_blank');
+		alert('League of Legends jeu de merde');
+		window.location.href = ref;
 	});
 
 });
