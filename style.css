@@ -387,3 +387,11 @@ button:link, button:visited {
 .t {
 	background: #74b816 !important;
 }
+
+.fa-star {
+	color: yellow;
+}
+
+.fa-poop {
+	color: #582900;
+}
