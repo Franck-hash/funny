@@ -13,26 +13,25 @@ $(document).ready(function() {
 				$('.loader').remove();
 			}, 1000);
 		}
-	}, 20);
+	}, 0);
 
 	const t = $('.t');
 	const f = $('.f');
 
 	f.mouseenter(function() {
-		t.text('Toi');
-		f.text('Franck');
+		t.html('<i class="fas fa-poop"></i> Cédric <i class="fas fa-poop"></i>');
+		f.html('<i class="fas fa-star"></i> Franck <i class="fas fa-star"></i>');
 	});
 
 	f.mouseleave(function() {
-		t.text('Franck');
-		f.text('Toi');
+		t.html('<i class="fas fa-star"></i> Franck <i class="fas fa-star"></i>');
+		f.html('<i class="fas fa-poop"></i> Cédric <i class="fas fa-poop"></i>');
 	});
 
 	$('button').click(function() {
-		setInterval(function() {
-			window.open('//www.google.fr', '_blank');
-		}, 1000);
-		
+		alert("Franck ? Bah oui c'était logique, je te donne une récompense.");
+		const url = 'buhnrop';
+		window.open('//www.' + url.split('').reverse().join('') + '.com', '_blank');
 	});
 
 });

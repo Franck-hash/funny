@@ -360,9 +360,30 @@ body {
 .main {
 	text-align: center;
 	color: white;
-	font-size: 70px;
+	font-size: 100px;
+	font-weight: bold;
 }
 
-.main button {
-	width: 150px;
+button {
+	font-size: 50px;
+	color: white;
+	padding: 20px;
+	font-weight: bold;
+	width: 500px;
+	cursor: pointer;
+	border-radius: .5rem;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.0125), 0 1px 1px rgba(0,0,0,0.05);
+    border-top-width: .0625rem;
+	border-bottom-width: calc(.2rem + .0625rem);
+	background: #0b7285;
+	border-color: rgba(0,0,0,0.3);
+	border-style: solid;
+}
+
+button:link, button:visited {
+    transition: all .1s ease-in;
+}
+
+.t {
+	background: #74b816 !important;
 }
