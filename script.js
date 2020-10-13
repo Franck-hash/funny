@@ -13,7 +13,7 @@ $(document).ready(function() {
 				$('.loader').remove();
 			}, 1000);
 		}
-	}, 0);
+	}, 50);
 
 	const t = $('.t');
 	const f = $('.f');
