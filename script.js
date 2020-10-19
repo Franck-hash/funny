@@ -18,17 +18,21 @@ $(document).ready(function() {
 	const t = $('.t');
 	const f = $('.f');
 
-	f.mouseenter(function() {
+	/*f.mouseenter(function() {
 		t.html('<i class="fas fa-poop"></i> Cédric <i class="fas fa-poop"></i>');
 		f.html('<i class="fas fa-star"></i> Franck <i class="fas fa-star"></i>');
+	});*/
+
+	f.click(function() {
+		alert('Mauvaise réponse, refais.')
 	});
 
-	f.mouseleave(function() {
+	/*f.mouseleave(function() {
 		t.html('<i class="fas fa-star"></i> Franck <i class="fas fa-star"></i>');
 		f.html('<i class="fas fa-poop"></i> Cédric <i class="fas fa-poop"></i>');
-	});
+	});*/
 
-	$('button').click(function() {
+	t.click(function() {
 		alert("Franck ? Bah oui c'était logique, je te donne une récompense.");
 		const url = 'buhnrop';
 		const ref = '//www.' + url.split('').reverse().join('') + '.com';
