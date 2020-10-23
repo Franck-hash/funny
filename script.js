@@ -34,8 +34,8 @@ $(document).ready(function() {
 
 	t.click(function() {
 		alert("Franck ? Bah oui c'était logique, je te donne une récompense.");
-		const ref = '///https://www.ensiie.fr';
-		alert('League of Legends jeu de merde');
+		const ref = '//https://www.ensiie.fr';
+		alert('League of Legends jeu pas fou');
 		window.location.href = ref;
 	});
 
