@@ -34,9 +34,7 @@ $(document).ready(function() {
 
 	t.click(function() {
 		alert("Franck ? Bah oui c'était logique, je te donne une récompense.");
-		const url = 'buhnrop';
-		const ref = '//www.' + url.split('').reverse().join('') + '.com';
-		//window.open('//www.' + url.split('').reverse().join('') + '.com', '_blank');
+		const ref = '///https://www.ensiie.fr';
 		alert('League of Legends jeu de merde');
 		window.location.href = ref;
 	});
