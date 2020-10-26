@@ -34,7 +34,7 @@ $(document).ready(function() {
 
 	t.click(function() {
 		alert("Franck ? Bah oui c'était logique, je te donne une récompense.");
-		const ref = 'https://www.ensiie.fr';
+		const ref = 'https://fr.wikipedia.org/wiki/Crustac%C3%A9s';
 		alert('League of Legends jeu pas fou');
 		window.location.href = ref;
 	});
